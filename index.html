@@ -7,27 +7,34 @@
 <link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css" />
 <script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
 <script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+
+
 </head>
 
 <body>
 <div id="page" data-role="page">
   <div data-role="header">
-    <h1>&nbsp;</h1>
-  </div>
-  <div data-role="content" data-theme="c">
-    <h1>Bob Dylan Lyrics</h1>
-    <p><a href="60.html" data-role="button" data-theme="a">1962 - 1970</a></p>
-    <p>
-      <a href="#" data-role="button" data-theme="a">1971 - 1980</a></p>
-    <p>
-      <a href="#" data-role="button" data-theme="a">1981 - 1990</a>      </p>
-    <p><a href="#" data-role="button" data-theme="a">1991 - 2000</a></p>
-     <p><a href="#" data-role="button" data-theme="a">2001 - 2010</a></p>
-     <p><a href="#" data-role="button" data-theme="a">2010 - </a></p>
+   <img src="img/00_portada.jpg" width="100%" alt="Bob Dylan Lyrics" />
+    
+<audio controls>
+<source src="like.mp3" type="audio/mp3">
+</audio>
+
+   </div>
+
+  <div data-role="content" class="black">
   
+    <p><a href="60.html" data-role="button" data-theme="a">1962 - 1970</a>      </p>
+    <p><a href="70.html" data-role="button" data-theme="a">1971 - 1980</a>      </p>
+    <p><a href="80.html" data-role="button" data-theme="a">1981 - 1990</a>      </p>
+    <p><a href="90.html" data-role="button" data-theme="a">1991 - Today</a>      </p>
+    <p><a href="bootlegs.html" data-role="button" data-theme="a">The Bootlegs Series</a></p>
+    
   </div>
-  <div data-role="footer">
-    <h4>Pie</h4>
+    <div data-role="footer">
+      <p><img src="img/00_pie.png" width="100%" /><br />
+      </p>
+      
   </div>
 </div>
 </body>

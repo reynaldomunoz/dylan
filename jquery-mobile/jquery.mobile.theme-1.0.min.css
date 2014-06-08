@@ -2,3 +2,18 @@
 	float: left;
 	margin: 10px;
 }
+.black {
+	background-color: #000;
+}
+#song {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #900;
+	padding-left: 15px;
+}
+.redboton {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #900;
+}
