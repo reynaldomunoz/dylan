@@ -5,12 +5,17 @@
 .black {
 	background-color: #000;
 }
+.black2 {
+	background-color: #000;
+	height: 100%;
+}
+
 #song {
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 12px;
-	line-height: 20px;
+	font-size: 13px;
+	line-height: 22px;
 	color: #900;
-	padding-left: 15px;
+	padding-left: 20px;
 }
 .redboton {
 	font-family: Verdana, Geneva, sans-serif;
